@@ -4,7 +4,7 @@
   {{/each}}
   <link rel="stylesheet" href="{{__ 's3URL'}}/themes-override.css?{{cacheStamp}}" />
 
-	{{#isolate}}
+
     {{#with keynote}}
       <div class="{{theme}} hide"></div> {{! Don’t remove, it’s for theme refreshing}}
 
@@ -33,7 +33,7 @@
         {{> spinner}}
       {{/if}}
     {{/with}}
-  {{/isolate}}
+
 
   <div class="progress"><div></div></div>
 </template>
